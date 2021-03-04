@@ -1,0 +1,8 @@
+2021-02-25T03:08:18+00:00 CRITICAL Uncaught Error: Call to undefined function flatsome_option() in /var/www/html/wp-content/themes/flatsome/page.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/flatsome/page.php on line 9
+
