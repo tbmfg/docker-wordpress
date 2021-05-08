@@ -1,13 +1,13 @@
-version: '3.7'
+version: '3.3'
 volumes:
-  wp-data:
+  wpr-data:
 networks:
   wp-back:
 services:
   db:
     image: mysql:5.7
     volumes:
-      - wp-data:/var/lib/mysql
+      - wpr-data:/var/lib/mysql
     environment:
        MYSQL_ROOT_PASSWORD: rootPassword
        MYSQL_DATABASE: wordpress
